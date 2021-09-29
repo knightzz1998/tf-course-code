@@ -10,3 +10,20 @@
   2. RNN的使用
   3. 文本分类
   4. 文本生成
+
+
+## 环境安装 📩
+
+### Tensorflow GPU版本的安装 
+
+```shell
+
+## 打开anaconda prompt 命令行，
+conda install cudatoolkit=10.1 
+conda install cudnn=7.6.5
+
+## 然后执行tensorflow安装：
+## 安装时别开代理软件
+pip install tensorflow-gpu==2.3.0 -i https://pypi.douban.com/simple/
+```
+
