@@ -4,12 +4,19 @@
 
 ## 目录结构 💾
 
-- tf_base_api : Tensorflow的基础API 🚀️
-- tf_rnn_code :
-  1. embedding 基本使用
-  2. RNN的使用
-  3. 文本分类
-  4. 文本生成
+- tf_base_api : Tensorflow的基础API使用
+  - tf.constant
+  - tf.string和ragged_tensor
+  - spare_tensor和tf.Variable
+  - 自定义损失函数和DenseLayer
+  - tf.function
+  - 函数签名与图结构
+  - tf.GradientTape
+- tf_rnn_code : 循环神经网络
+  - embedding 基本使用
+  - RNN的使用
+  - 文本分类
+  - 文本生成
 
 
 ## 环境安装 📩

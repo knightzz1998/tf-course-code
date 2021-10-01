@@ -482,3 +482,7 @@ fabric.properties
 *.iml
 out
 gen
+!/.gitignore
+!/.gitignore
+
+.vscode
