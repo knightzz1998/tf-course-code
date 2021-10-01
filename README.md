@@ -4,7 +4,7 @@
 
 ## 目录结构 💾
 
-- tf_base_api : Tensorflow的基础API使用
+### tf_base_api : Tensorflow的基础API使用
   - tf.constant
   - tf.string和ragged_tensor
   - spare_tensor和tf.Variable
@@ -12,14 +12,29 @@
   - tf.function
   - 函数签名与图结构
   - tf.GradientTape
-- tf_rnn_code : 循环神经网络
+### tf_rnn_code : 循环神经网络
   - embedding 基本使用
   - RNN的使用
   - 文本分类
   - 文本生成
 
+### tf_dataset_code : 数据集
+  - tf_data 基础API使用
+  - 生成csv文件
+  - tf.io.decode_csv
+  - tf.data读取csv文件并与tf.keras结合
+  - tf.record 基础API
+
 
 ## 环境安装 📩
+
+### Python库版本
+- tensorflow.keras 2.4.0 
+- pandas 1.3.3 
+- numpy 1.18.5 
+- tensorflow 2.3.0 
+- matplotlib 3.4.2 
+- sklearn 0.24.2
 
 ### Tensorflow GPU版本的安装 
 
